@@ -1,0 +1,10 @@
+
+(22:45)
+npm install angular2-jwt --save
+
+npm install auth0-lock --save
+
+-dopo devi mappare le librerie in system.config.js
+
+(23:48)
+mappare le librerie e packages NON CHIARO

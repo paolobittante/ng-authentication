@@ -12,6 +12,13 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { Auth } from './services/auth.service';
 import { AuthGuard } from './auth.guard';
 
+// import {MdCardModule} from '@angular2-material/card';
+// //module for buttons component
+// import {MdButtonModule} from '@angular2-material/button';
+// //icon module
+// import {MdIconModule} from '@angular2-material/icon';
+// import {MdIconRegistry} from '@angular2-material/icon';
+
 @NgModule({
   declarations: [
     AppComponent, HomeComponent, ProfileComponent
@@ -20,14 +27,17 @@ import { AuthGuard } from './auth.guard';
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
+    // MdCardModule
   ],
+  //fornisco i servizi
   providers: [ 
     appRoutingProviders,
     AUTH_PROVIDERS,
     Auth,
-    AuthGuard    
-     ], //fornisco i servizi
+    AuthGuard,
+    // MdIconRegistry
+     ], 
   bootstrap: [AppComponent]
 })
 export class AppModule { }

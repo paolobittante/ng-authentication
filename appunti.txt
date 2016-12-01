@@ -8,3 +8,11 @@ npm install auth0-lock --save
 
 (23:48)
 mappare le librerie e packages NON CHIARO
+
+
+Inserito material:
+librerie importate: 
+@angular2-material/button @angular2-material/core @angular2-material/icon
+
+-inserito supporto per touch gesture
+ npm install hammerjs --save
